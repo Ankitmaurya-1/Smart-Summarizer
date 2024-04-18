@@ -1,7 +1,9 @@
-import Demo from "./Components/Demo";
 import Hero from "./Components/Hero";
+import Demo from "./Components/Demo";
+
 import "./App.css";
-function App() {
+
+const App = () => {
   return (
     <main>
       <div className="main">
@@ -14,6 +16,6 @@ function App() {
       </div>
     </main>
   );
-}
+};
 
 export default App;
